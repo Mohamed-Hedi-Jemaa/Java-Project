@@ -1,10 +1,12 @@
 # Gestion de livres dans une bibliothèque Java SE/MySQL
-L'application permet de faire les actions suivantes: enregistrer tous les livres et tous les abonnés de la bibliothèque dans la base de données; enregistrer les emprunts et les retours de livres par les abonnés; vérifier si un livre demandé est disponible; connaitre quel abonné a pris quel livre.vous pouvez utiliser directement l'application (GesBiblio.jar) si vous avez le JDK installé sur votre ordinateur.
+L'application permet de faire les actions suivantes: enregistrer tous les livres et tous les abonnés de la bibliothèque dans la base de données; enregistrer les emprunts et les retours de livres par les abonnés; vérifier si un livre demandé est disponible; connaitre quel abonné a pris quel livre.
+vous pouvez utiliser directement l'application (GesBiblio.jar) si vous avez le JDK installé sur votre ordinateur.
 Pour que l'application fonctionne, vous devez d'abord importer ou créer la base de données "biblio.sql" dans votre SGBD Mysql.
 
 ## Voici les interfaces graphiques de l'application :
 Interface graphique d'enregistrement des livres :
-Pour enregistrer un livre, il suffit de saisir son identitfiant et son titre et cliquer sur le bouton "Insertion"; pour supprimer un enregistrement il faut juste indiquer l'identifiant et cliquer sur le bouton "Supprimer". 
+Pour enregistrer un livre, il suffit de saisir son identitfiant et son titre et cliquer sur le bouton "Insertion"; 
+pour supprimer un enregistrement il faut juste indiquer l'identifiant et cliquer sur le bouton "Supprimer". 
 
 ![code2im2](https://user-images.githubusercontent.com/89652407/149222287-329592c3-59e0-4807-be03-56c6460152da.png)
 
