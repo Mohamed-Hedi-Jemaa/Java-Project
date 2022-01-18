@@ -19,10 +19,7 @@ import javax.swing.table.DefaultTableModel;
 import conn.Connec;
 
 import java.sql.*;
-/*Application réalisée à N'djaména au Tchad en 2019 par
- *  TARGOTO CHRISTIAN
- * Contact: 23560316682 / ct@chrislink.net
- * */
+
 public class Requete extends JFrame implements ActionListener {
 	JLabel lb1,lb2,lb3,lb4,lb5,lb6;
 	JTextField tf1,tf2,tf3,tf4,tf5;
@@ -44,7 +41,7 @@ public class Requete extends JFrame implements ActionListener {
 		pn.setBackground(new Color(0,200,200));
 		add(pn);
 		//lb
-		lb1=new JLabel("Livres empruntés");
+		lb1=new JLabel("Livres empruntÃ©s");
 		lb1.setBounds(160,10,200,30);
 		lb1.setFont(new Font("Arial",Font.BOLD,20));
 		//lb1.setForeground(Color.BLUE);
@@ -116,7 +113,7 @@ catch(SQLException ex){
 		}
 				pn.add(jcb3);
 		//bt
-		bt2=new JButton("Vérifier");
+		bt2=new JButton("VÃ©rifier");
 		bt2.setBounds(210,330,100,25);
 		bt2.addActionListener(this);
 		pn.add(bt2);
