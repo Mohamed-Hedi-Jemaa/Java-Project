@@ -19,10 +19,6 @@ import java.awt.event.ActionListener;
 
 import java.sql.*;
 
-/*Application réalisée à N'djaména au Tchad en 2019 par
- *  TARGOTO CHRISTIAN
- * Contact: 23560316682 / ct@chrislink.net
- * */
 public class Emprunt extends JFrame implements ActionListener {
 	java.sql.Statement st;
 	ResultSet rst;
@@ -48,7 +44,7 @@ public class Emprunt extends JFrame implements ActionListener {
 		pn.add(lb3);
 				
 		
-		lb1=new JLabel("IdAbonné");
+		lb1=new JLabel("IdAbonnÃ©");
 		lb1.setBounds(30,100,130,25);
 		pn.add(lb1);
 		 tf1=new JTextField();
@@ -93,7 +89,7 @@ catch(SQLException ex){
 		lb4.setFont(new Font("Arial",Font.BOLD,18));
 		pn.add(lb4);
 		
-		lb5=new JLabel("IdAbonné");
+		lb5=new JLabel("IdAbonnÃ©");
 		lb5.setBounds(30,280,130,25);
 		pn.add(lb5);
 		 tf5=new JTextField();
@@ -135,8 +131,8 @@ catch(SQLException ex){
 				blivre.setBounds(135,420,110,30);
 				blivre.addActionListener(this);
 				pn.add(blivre);
-	 //bouton abonné
-				babonne=new JButton("Abonnés");
+	 //bouton abonnÃ©
+				babonne=new JButton("AbonnÃ©s");
 				babonne.setBounds(260,420,110,30);
 				babonne.addActionListener(this);
 				pn.add(babonne);
@@ -201,7 +197,7 @@ catch(SQLException ex){
 			lv.setVisible(true);
 			
 		}
-		//abonnés
+		//abonnÃ©s
 		if(e.getSource()==babonne){
 			dispose();
 			Abonne ab=new Abonne();
