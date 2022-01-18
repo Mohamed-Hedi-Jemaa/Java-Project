@@ -90,7 +90,7 @@ public class Livre extends JFrame implements ActionListener {
 		bt6.addActionListener(this);
 		pn.add(bt6);
 		
-		babonne=new JButton("Abonnés");
+		babonne=new JButton("AbonnÃ©s");
 		babonne.setBounds(180,280,110,30);
 		babonne.addActionListener(this);
 		pn.add(babonne);
@@ -220,7 +220,7 @@ public class Livre extends JFrame implements ActionListener {
 			lv.setVisible(true);
 			
 		}
-		//aller vers l'interface graphique de gestion des abonnés
+		//aller vers l'interface graphique de gestion des abonnÃ©s
 				if(e.getSource()==babonne){
 					
 					try{
@@ -243,8 +243,5 @@ public class Livre extends JFrame implements ActionListener {
 				}
 		
 	
-}/*Application réalisée à N'djaména au Tchad en 2019 par
-	 *  TARGOTO CHRISTIAN
-	 * Contact: 23560316682 / ct@chrislink.net
-	 * */
+}
 }
