@@ -1,8 +1,4 @@
 package adminis;
-/*Application réalisée à N'djaména au Tchad en 2019 par
- *  TARGOTO CHRISTIAN
- * Contact: 23560316682 / ct@chrislink.net
- * */
 
 import java.awt.Color;
 import java.awt.Font;
@@ -42,7 +38,7 @@ public class Abonne extends JFrame implements ActionListener {
 		pn.setBackground(new Color(0,200,200));
 		add(pn);
 		//titre
-		lbtitre=new JLabel("Enregistrement des abonnés");
+		lbtitre=new JLabel("Enregistrement des abonnÃ©s");
 		lbtitre.setBounds(10,10,300,30);
 		lbtitre.setFont(new Font("Arial",Font.BOLD,16));
 		pn.add(lbtitre);
