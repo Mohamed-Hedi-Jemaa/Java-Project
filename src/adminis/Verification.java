@@ -2,9 +2,7 @@ package adminis;
 import java.sql.*;
 
 import conn.Connec;
-/*Application réalisée à Ndjaména au Tchad en 2019 par Targoto Christian
- * alias chcode
- * contact: 23560316682/Email: ct@chrislink.net*/
+
 public class Verification {
 	ResultSet rst;
 	Statement st;
@@ -30,10 +28,6 @@ public class Verification {
 			
 		}
 		
-		/*Application réalisée à N'djaména au Tchad en 2019 par
-		 *  TARGOTO CHRISTIAN
-		 * Contact: 23560316682 / ct@chrislink.net
-		 * */
 		return test; 
 		
 	}
